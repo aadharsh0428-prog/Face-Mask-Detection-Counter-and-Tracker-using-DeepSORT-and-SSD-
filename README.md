@@ -1,10 +1,10 @@
 # Face-Mask-Detection-Counter-and-Tracker-using-DeepSORT-and-SSD-
 
-## Introduction /n
+## Introduction 
 
 This repository contains a moded version of PyTorch YOLOv5. It filters out every detection that is not a person. The/n detections of persons are then passed to a Deep Sort algorithm which tracks the persons. 
 
-## Face Mask Detection Model /n
+## Face Mask Detection Model 
 
 
 We used the structure of SSD. However,  in order to  make it run quickly in the browser, the backbone network is lite. The total model only has 1.01M parametes.
@@ -21,6 +21,6 @@ Second ||17x17|0.08,0.11|1,0.62,0.42|
 |Forth |5x5|0.32,0.45|1,0.62,0.42|
 |Fifth|3x3|0.64,0.72|1,0.62,0.42|
 
-## How to run /n
+## How to run 
 
 python3 track.py --source video-path
