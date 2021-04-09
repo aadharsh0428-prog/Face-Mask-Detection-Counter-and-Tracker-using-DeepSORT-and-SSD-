@@ -13,12 +13,12 @@ Input size of the model is 360x360, the backbone network only has 8 conv layers.
 
 SSD anchor configurtion is show below:
 
-| multibox layers | feature map size | anchor size | aspect ratio）|
+| multibox layers | feature map size | anchor size | aspect ratio|
 | ---- | ---- | ---- | ---- |
 |First|33x33|0.04,0.056|1,0.62,0.42|
-Second ||17x17|0.08,0.11|1,0.62,0.42|
+|Second|17x17|0.08,0.11|1,0.62,0.42|
 |Third|9x9|0.16,0.22|1,0.62,0.42|
-|Forth |5x5|0.32,0.45|1,0.62,0.42|
+|Fourth |5x5|0.32,0.45|1,0.62,0.42|
 |Fifth|3x3|0.64,0.72|1,0.62,0.42|
 
 ## How to run 
